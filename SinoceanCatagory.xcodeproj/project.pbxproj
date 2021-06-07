@@ -10,6 +10,8 @@
 		60445EE8266DF30500834240 /* SinoceanCatagory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60445EDE266DF30500834240 /* SinoceanCatagory.framework */; };
 		60445EED266DF30500834240 /* SinoceanCatagoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60445EEC266DF30500834240 /* SinoceanCatagoryTests.m */; };
 		60445EEF266DF30500834240 /* SinoceanCatagory.h in Headers */ = {isa = PBXBuildFile; fileRef = 60445EE1266DF30500834240 /* SinoceanCatagory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60445EFD266E0A6500834240 /* ViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 60445EFB266E0A6500834240 /* ViewController.h */; };
+		60445EFE266E0A6500834240 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60445EFC266E0A6500834240 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		60445EE7266DF30500834240 /* SinoceanCatagoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinoceanCatagoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60445EEC266DF30500834240 /* SinoceanCatagoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SinoceanCatagoryTests.m; sourceTree = "<group>"; };
 		60445EEE266DF30500834240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60445EFB266E0A6500834240 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		60445EFC266E0A6500834240 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,7 @@
 		60445EE0266DF30500834240 /* SinoceanCatagory */ = {
 			isa = PBXGroup;
 			children = (
+				60445EFA266E0A4100834240 /* SinCatagory */,
 				60445EE1266DF30500834240 /* SinoceanCatagory.h */,
 				60445EE2266DF30500834240 /* Info.plist */,
 			);
@@ -86,6 +91,15 @@
 			path = SinoceanCatagoryTests;
 			sourceTree = "<group>";
 		};
+		60445EFA266E0A4100834240 /* SinCatagory */ = {
+			isa = PBXGroup;
+			children = (
+				60445EFB266E0A6500834240 /* ViewController.h */,
+				60445EFC266E0A6500834240 /* ViewController.m */,
+			);
+			path = SinCatagory;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -94,6 +108,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60445EEF266DF30500834240 /* SinoceanCatagory.h in Headers */,
+				60445EFD266E0A6500834240 /* ViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60445EFE266E0A6500834240 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
