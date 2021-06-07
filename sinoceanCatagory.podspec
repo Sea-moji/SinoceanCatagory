@@ -23,7 +23,7 @@ Pod::Spec.new do |spec|
 
   spec.platform     = :ios, "9.0"
 
-  spec.source       = { :git =>'git@github.com:Sea-moji/SinoceanCatagory.git', :tag => "#{spec.version}" }
+  spec.source       = { :git =>'https://github.com/Sea-moji/SinoceanCatagory.git', :tag => "#{spec.version}" }
 
   spec.source_files  = "SinoceanCatagory/SinCatagory/**/*.{h,m}"
 
