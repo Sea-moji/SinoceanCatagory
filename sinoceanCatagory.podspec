@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git =>'git@github.com:Sea-moji/SinoceanCatagory', :tag => "#{spec.version}" }
 
-  spec.source_files  = "SinCatagory/**/*.{h,m}"
+  spec.source_files  = "SinoceanCatagory/SinCatagory/**/*.{h,m}"
 
   # spec.public_header_files = "Classes/**/*.h"
 
